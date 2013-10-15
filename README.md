@@ -9,8 +9,8 @@ To use see INSTALL and to compile run 'make'.
 The end executable 'lmcipher' can be used to encrypt files using a given key. The bigger the key the better the security.
 
 Disclaimer 
-==========
-=
+===========
+
 Under no circumstances should this be considered a viable security solution, this is a research project.
 I will not assume responsibility for bugs that could lead to weaker security. Use at own risk.
 
