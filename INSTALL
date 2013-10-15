@@ -1,0 +1,28 @@
+RUN:
+
+$sudo make install
+
+Example:
+$lmcipher 1337 plain.txt
+
+and/or
+
+$lmcipher 1337 plain.txt.hid
+
+Now about partyvan:
+
+$partyvan [off] [dir]
+
+Example:
+
+$partyvan .
+Will encrypt all the files in the current directory recursivelly.
+
+$partyvan off .
+Will decrypt all the files in the current directory recursivelly.
+
+$partyvan ~/dir
+Will encrypt all the files in that directory.
+
+$partyvan off ~/dir
+

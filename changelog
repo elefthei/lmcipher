@@ -1,0 +1,19 @@
+LMCipher
+---------
+
+0.1: First version. No input/output file support in alpha yet, plaintext encryption and ciphertext decryption possible.
+
+0.2: Removed plaintext support, only files supported now. Incorporated the XOR algorithm for merging with the cipher pad, instead of the previously used modular addition. Options also changed, now use like this:
+$lmcipher 6666 input output
+Thanks
+
+0.3: Fixed binary file support. Changed to the MIT licence.
+0.4: Fixed Runtime bug. Fixed documentation. Fixed error message.
+1.0: First stable edition. Tested on many gigabytes of data. Removed output files option, from now on output file names should be of the form: *.hid. If you would want to set the output file names on your own, please use LMCipher-0.4. 
+1.1: Fixed memory leaks and security issues that could cause buffer overflows.
+
+Partyvan
+---------
+
+Partyvan-0.1: a script which encrypts the contents of a folder using lmcipher.
+(WARNING: Experimental with some bugs. Blank spaces in filenames are translated to underscores, some file extensions may change as well. Just change them back, they should be ok.)
